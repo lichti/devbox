@@ -33,6 +33,7 @@ Edit the Vagrantfile to enable or disable vagrantshells for your development env
 `nano Vagrantfile`
 
 Initialize the development enviroment. (This step may be slow)
+
 `vagrant up`
 
 Accessing the development enviroment with ssh
