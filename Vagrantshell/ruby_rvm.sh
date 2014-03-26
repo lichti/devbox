@@ -19,5 +19,4 @@ echo "RVM"
 
   else
     echo "RVM is already installed"
-    return 1
   fi
