@@ -1,5 +1,5 @@
 VAGRANTFILE_API_VERSION = '2'
-HOST_NAME = 'wallemail'
+HOST_NAME = 'devbox'
 BRIDGE_ETHER = 'eth0'
 RAM_MEM = '512'
 
