@@ -22,6 +22,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   #config.vm.provision "shell", path: "Vagrantshell/nginx.sh"
   #config.vm.provision "shell", path: "Vagrantshell/openjdk.sh"
   config.vm.provision "shell", path: "Vagrantshell/ruby_rvm.sh"
+  config.vm.provision "shell", path: "Vagrantshell/custom.sh"
 
   config.vm.network :forwarded_port, guest: 3000, host: 3000, auto_correct: true    # rails
   config.vm.network :forwarded_port, guest: 9292, host: 9292, auto_correct: true    # rack
